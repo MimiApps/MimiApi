@@ -1,0 +1,8 @@
+# Texto em LF no repositório e na cópia de trabalho, independente do core.autocrlf da máquina
+* text=auto eol=lf
+
+# Scripts do Windows precisam de CRLF
+*.bat text eol=crlf
+
+# Binários não são tocados
+*.jar binary
