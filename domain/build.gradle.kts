@@ -1,15 +1,3 @@
 plugins {
-    kotlin("jvm")
-}
-
-dependencies {
-    testImplementation(kotlin("test"))
-}
-
-kotlin {
-    jvmToolchain(25)
-}
-
-tasks.test {
-    useJUnitPlatform()
+    id("mimi.kotlin")
 }
