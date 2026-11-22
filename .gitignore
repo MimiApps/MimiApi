@@ -16,6 +16,10 @@ out/
 ### Ambiente ###
 .env
 
+### OpenSpec (gerado por openspec init) ###
+.claude/commands/opsx/
+.claude/skills/openspec-*/
+
 ### Kotlin ###
 .kotlin
 
